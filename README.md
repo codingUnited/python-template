@@ -1,6 +1,8 @@
-# 🐍 Python Project Template - Coding United Club
+# 🐍 Python Project Beginnings - Coding United Club
 
-Welcome to the official Python project template for the **Coding United Club**! This template provides a standardized starting point for your Python projects and assignments, including guidance for setting up your virtual environment and configuring PyCharm.
+### Hello and welcome to the official Python project template for the **Coding United Club**! I am John Swindell, a fellow Club member, and will be walking you through this template guide! 
+
+
 
 ## Table of Contents
 
@@ -19,6 +21,9 @@ Welcome to the official Python project template for the **Coding United Club**! 
 
 ---
 
+Before we fully begin, you may be wondering what this is or why you are here. Rest assured, I've got your back, and will do my best to make this as simple to follow as possible. The goal here is to provide a base starting point for your Python projects and assignments, not just in the club, but thoroughout your SNHU academic life, including guidance for setting up your virtual environment and configuring PyCharm.
+
+---
 ## Overview
 
 This template helps you:
@@ -26,6 +31,7 @@ This template helps you:
 * Maintain a consistent project structure.
 * Isolate project dependencies using virtual environments.
 * Easily integrate with PyCharm, the recommended IDE for club activities.
+* Maintain sanity when starting to code (no guarantees).
 
 ---
 
@@ -36,6 +42,11 @@ Before you begin, ensure you have the following installed:
 1.  **Python 3.x:** Download from [python.org](https://www.python.org/downloads/). During installation on Windows, make sure to check the box "Add Python to PATH."
 2.  **Git:** Download from [git-scm.com](https://git-scm.com/downloads).
 3.  **PyCharm Community Edition (or Professional):** Download from [JetBrains PyCharm](https://www.jetbrains.com/pycharm/download/).
+   
+
+Quick pro tip before you move on, you can get all JetBrains IDE's for **free** as a student here: [JetBrains Educational Benefits](https://www.jetbrains.com/academy/student-pack/).
+
+Who doesn't love free stuff? Seriously though, you should get this.
 
 ---
 
@@ -46,14 +57,14 @@ You have two main options to use this template:
 **Option A: Clone this repository (Recommended for starting a new project)**
 
 1.  Click the green "Code" button on this repository page.
-2.  Copy the HTTPS URL (e.g., `https://github.com/YourClubOrg/python-template.git`).
+2.  Copy the HTTPS URL (e.g., `https://github.com/codingUnited/python-template.git`).
 3.  Open your terminal (Git Bash on Windows, Terminal on macOS/Linux) and navigate to where you want to store your project.
-4.  Clone the repository:
+4.  Clone the repository by pasting this:
     ```bash
     git clone COPIED_URL_HERE your-project-name
     cd your-project-name
     ```
-    (Replace `COPIED_URL_HERE` with the actual URL and `your-project-name` with your desired project folder name).
+    (Of course, you'll have to replace `COPIED_URL_HERE` with the actual URL and `your-project-name` with your desired project folder name, but I've gotta say it).
 
 **Option B: Use as a GitHub Template (If you want to create a new repository under your own GitHub account based on this one)**
 1. Click the "Use this template" button on this repository page and select "Create a new repository."
@@ -62,7 +73,9 @@ You have two main options to use this template:
 
 ## Step 2: Set Up Your Virtual Environment (`venv`)
 
-A virtual environment isolates your project's dependencies from your global Python installation and other projects. This is crucial for managing different package versions.
+A virtual environment isolates your project's dependencies from your global Python installation and other projects. This is very very important for managing different package versions.
+
+Something people new to using Python often forget to do is set up their `venv` but you **should not be one of those people**. It is a highly important step that you can find out more about here [Quick Pycharm venv Guide](https://www.youtube.com/watch?v=2P30W3TN4nI)
 
 1.  **Navigate to your project directory** in the terminal (if you aren't already there):
     ```bash
@@ -90,6 +103,8 @@ A virtual environment isolates your project's dependencies from your global Pyth
     Once activated, your terminal prompt will usually show `(venv)` at the beginning.
 
     **Important:** You need to activate the virtual environment *every time* you work on this project in a new terminal session.
+
+    Keep in mind that Pycharm will actually make this process much more simple for you. That means if you found this complex, watch the video 👀 [Quick Pycharm venv Guide](https://www.youtube.com/watch?v=2P30W3TN4nI)
 
 ---
 
@@ -151,7 +166,7 @@ If your `requirements.txt` file contains any packages, install them into your ac
 ---
 
 ## Project Structure
-your-project-name/
+```your-project-name/
 ├── venv/               # Virtual environment directory (created by you, ignored by Git)
 ├── .git/               # Git version control files (hidden)
 ├── .gitignore          # Specifies intentionally untracked files that Git should ignore
@@ -159,7 +174,7 @@ your-project-name/
 ├── requirements.txt    # Lists Python package dependencies for the project
 └── README.md           # This file: Project information and setup instructions
 └── LICENSE             # The project's open source license
-
+```
 ---
 
 ## Using This Template for Assignments
@@ -177,7 +192,7 @@ your-project-name/
 
 ## Best Practices
 
-* Always use a virtual environment for each project.
+* **Always** use a virtual environment for each project (seriously, always).
 * Keep your `requirements.txt` file updated.
 * Write clear and concise code with comments where necessary.
 * Commit your code frequently with meaningful messages.
@@ -190,7 +205,12 @@ If you have questions or run into issues:
 * Ask your fellow Coding United Club members!
 * Refer to the PyCharm documentation: [PyCharm Docs](https://www.jetbrains.com/help/pycharm/)
 * Consult Python documentation: [Python Docs](https://docs.python.org/3/)
-* [Link to Club's Discord/Communication Channel if available]
+* Feel free to @ me or ask in our: [Discord](https://discord.gg/n8xYkS46MG)
+* Find more information on our: [Club Site](https://coding-united-commons.pages.dev/)
+
+---
+
+### Thank you for reading the template guide, and I hope you found it helpful :)
 
 ---
 
