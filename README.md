@@ -205,7 +205,7 @@ If you have questions or run into issues:
 * Ask your fellow Coding United Club members!
 * Refer to the PyCharm documentation: [PyCharm Docs](https://www.jetbrains.com/help/pycharm/)
 * Consult Python documentation: [Python Docs](https://docs.python.org/3/)
-* Feel free to @ me or ask in our: [Discord](https://discord.gg/n8xYkS46MG)
+* Feel free to @ me or ask in our: [Discord](https://discord.gg/YyntRSs8JA)
 * Find more information on our: [Club Site](https://coding-united-commons.pages.dev/)
 
 ---
